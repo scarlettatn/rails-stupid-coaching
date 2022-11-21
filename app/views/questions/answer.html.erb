@@ -1,5 +1,7 @@
 <%= @question %>
 <p class="fst-italic">- You</p>
+<div class="alert alert-warning" role="alert">
 <strong><%= @answer %></strong>
+</div>
 <p class="fst-italic">- Your coach</p>
 <%= link_to 'Ask a new question', ask_path %>
